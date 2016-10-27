@@ -10,7 +10,7 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Тыц");
+            Console.WriteLine("Тыц!!sdsadsasadsa");
         }
     }
 }
