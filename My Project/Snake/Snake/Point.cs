@@ -10,12 +10,19 @@ namespace Snake
     {
         public int x;
         public int y;
-        public char sym;
+        public char symbl;
+
+        public Point(int _x, int _y, char _symbl)
+        {
+            x = _x;
+            y = _y;
+            symbl = _symbl;
+        }
 
         public void Draw()
         {
             Console.SetCursorPosition(x, y);
-            Console.WriteLine(sym);
+            Console.WriteLine(symbl);
         }
     }
 }
